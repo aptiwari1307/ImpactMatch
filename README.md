@@ -1,4 +1,4 @@
-# ImpactMatch 🌱
+# ImpactMatch
 
 **A responsive front-end web platform for skill-based volunteer matching and NGO impact visualization.**
 
@@ -119,7 +119,3 @@ Please keep changes scoped to front-end only (no frameworks, no build tools) to 
 ## License
 
 This project is open source. Feel free to use, adapt, and build on it.
-
----
-
-> Built with 💚 to bridge the gap between skilled volunteers and impactful NGOs across India.
