@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore NGOs – ImpactMatch</title>
+  <meta name="description" content="Browse and filter verified NGOs across education, healthcare, environment, and more. Find the cause that matches your skills.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-logo">
+        Impact<span class="logo-dot">Match</span>
+      </a>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="explore.html" class="active">Explore NGOs</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="navbar-actions">
+        <a href="dashboard.html" class="btn btn-primary btn-sm">
+          Get Matched
+        </a>
+        <div class="nav-hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="nav-mobile" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="explore.html" class="active">Explore NGOs</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="impact.html">Impact</a>
+      <a href="dashboard.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px;">Get Matched</a>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+
+  <section class="explore-hero">
+    <span class="section-tag" style="margin-bottom:16px;background:rgba(46,166,115,.2);color:#4ec48a;">Explore</span>
+    <h1>Discover NGOs Making <br>Real Difference</h1>
+    <p>Browse 12+ verified NGOs across education, healthcare, environment and more. Filter by skill, category, or urgency to find your match.</p>
+  </section>
+
+  <div class="explore-toolbar">
+    <div class="container toolbar-inner">
+      <div class="search-wrap">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search NGOs by name or description…" aria-label="Search NGOs">
+      </div>
+      <div class="filter-group">
+        <select id="catFilter" class="filter-select" aria-label="Filter by category">
+          <option value="">All Categories</option>
+        </select>
+        <select id="skillFilter" class="filter-select" aria-label="Filter by skill">
+          <option value="">All Skills</option>
+        </select>
+      </div>
+      <div class="filter-chip-group">
+        <button class="filter-chip" id="urgentChip">Urgent Only</button>
+      </div>
+    </div>
+  </div>
+  <div class="container explore-content-container">
+    <div class="results-bar">
+      <span class="results-count" id="resultCount"><strong>12</strong> NGOs found</span>
+    </div>
+
+    <div class="explore-grid" id="exploreGrid">
+      <div class="loading-state" style="padding:40px;text-align:center;grid-column:1/-1;">
+        Loading NGOs...
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Impact<span class="logo-dot">Match</span></div>
+        <p>Connecting skills to causes through a data-driven volunteer matching platform. Because impact is more than a donation.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore NGOs</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="footer-col">
+        <h5>About</h5>
+        <a href="#">Our Mission</a>
+        <a href="#">How It Works</a>
+        <a href="#">Partner NGOs</a>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2025 ImpactMatch.</span>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

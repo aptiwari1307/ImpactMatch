@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact Dashboard – ImpactMatch</title>
+  <meta name="description" content="Explore real-world impact data across all NGOs. Bar, pie, and line charts show collective reach. Calculate your personal potential impact based on your skills.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-logo">
+        Impact<span class="logo-dot">Match</span>
+      </a>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore NGOs</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="impact.html" class="active">Impact</a>
+      </div>
+      <div class="navbar-actions">
+        <a href="dashboard.html" class="btn btn-primary btn-sm">
+          Get Matched
+        </a>
+        <div class="nav-hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="nav-mobile" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore NGOs</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="impact.html" class="active">Impact</a>
+    </div>
+  </nav>
+  </header>
+  <main>
+
+  <section class="impact-hero">
+    <div class="container">
+      <span class="section-tag">Impact Data</span>
+      <h1>Collective NGO Impact</h1>
+      <p>Real numbers, real change. See how our partner NGOs are transforming lives across India.</p>
+    </div>
+  </section>
+
+  <section class="global-stats">
+    <div class="container">
+      <div class="global-stats-grid">
+        <div class="gstat-card">
+          <div class="gstat-value" id="totalPeople" data-count="152400">0</div>
+          <div class="gstat-label">People Helped</div>
+        </div>
+        <div class="gstat-card">
+          <div class="gstat-value" id="totalProjects" data-count="279">0</div>
+          <div class="gstat-label">Projects Completed</div>
+        </div>
+        <div class="gstat-card">
+          <div class="gstat-value" id="totalNGOs" data-count="12">0</div>
+          <div class="gstat-label">Active NGOs</div>
+        </div>
+        <div class="gstat-card">
+          <div class="gstat-value" id="totalCats" data-count="8">0</div>
+          <div class="gstat-label">Cause Categories</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding: 40px 0;">
+    <div class="container">
+      <h2 style="margin-bottom: 8px;">Impact by the Numbers</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 24px;">People helped per NGO — ranked by total reach.</p>
+      <div style="background: #fff; border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 24px;">
+        <canvas id="barChart" height="380"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding: 40px 0 60px;">
+    <div class="container">
+      <h2 style="margin-bottom: 8px;">Top Impact NGOs</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 24px;">Organizations creating the greatest measurable impact.</p>
+      <div class="top-ngos-grid" id="topNGOsGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Impact<span class="logo-dot">Match</span></div>
+        <p>Connecting skills to causes through a data-driven volunteer matching platform. Because impact is more than a donation.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore NGOs</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="footer-col">
+        <h5>About</h5>
+        <a href="#">Our Mission</a>
+        <a href="#">How It Works</a>
+        <a href="#">Partner NGOs</a>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2025 ImpactMatch.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

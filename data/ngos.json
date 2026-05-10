@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "EduReach India",
+    "category": "Education",
+    "location": "Delhi, India",
+    "skills": ["Teaching", "Curriculum Design", "Content Writing", "Mentoring"],
+    "isUrgent": true,
+    "impact": {
+      "peopleHelped": 12400,
+      "projectsCompleted": 34,
+      "growth": [1200, 2800, 4500, 6100, 8900, 12400]
+    },
+    "description": "Bridging the education gap by deploying skilled volunteers in under-resourced schools across rural India. We create scalable learning infrastructure.",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Green Earth Alliance",
+    "category": "Environment",
+    "location": "Mumbai, India",
+    "skills": ["Environmental Science", "Data Analysis", "Community Outreach", "Social Media"],
+    "isUrgent": false,
+    "impact": {
+      "peopleHelped": 8700,
+      "projectsCompleted": 22,
+      "growth": [800, 1900, 3200, 5400, 7100, 8700]
+    },
+    "description": "Mobilising communities to combat climate change through reforestation drives, clean-up campaigns, and sustainable agriculture education.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "HealthFirst NGO",
+    "category": "Healthcare",
+    "location": "Bangalore, India",
+    "skills": ["Medical", "Counseling", "Data Entry", "Health Education"],
+    "isUrgent": true,
+    "impact": {
+      "peopleHelped": 21000,
+      "projectsCompleted": 58,
+      "growth": [2000, 5500, 9200, 13000, 17500, 21000]
+    },
+    "description": "Providing free primary healthcare, mental wellness support, and nutrition programs to migrant workers and urban slum communities.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "TechForGood",
+    "category": "Technology",
+    "location": "Hyderabad, India",
+    "skills": ["Web Development", "App Development", "UI/UX Design", "Data Analysis"],
+    "isUrgent": false,
+    "impact": {
+      "peopleHelped": 6500,
+      "projectsCompleted": 18,
+      "growth": [500, 1200, 2600, 4000, 5200, 6500]
+    },
+    "description": "Building open-source digital tools and mobile apps for NGOs that lack technical capacity, amplifying their reach by 10x.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Women Empower Collective",
+    "category": "Women Empowerment",
+    "location": "Jaipur, India",
+    "skills": ["Counseling", "Teaching", "Legal Aid", "Social Media", "Mentoring"],
+    "isUrgent": true,
+    "impact": {
+      "peopleHelped": 9300,
+      "projectsCompleted": 41,
+      "growth": [900, 2100, 4300, 6200, 8000, 9300]
+    },
+    "description": "Skilling, mentoring, and legally empowering women survivors of domestic violence through community-led support networks.",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Food Security Now",
+    "category": "Food & Nutrition",
+    "location": "Chennai, India",
+    "skills": ["Logistics", "Community Outreach", "Data Entry", "Content Writing"],
+    "isUrgent": false,
+    "impact": {
+      "peopleHelped": 15800,
+      "projectsCompleted": 29,
+      "growth": [1500, 3800, 7200, 10500, 13500, 15800]
+    },
+    "description": "Running a zero-waste food redistribution network that collects surplus food from restaurants and delivers it to shelters and children's homes.",
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "CleanWater Initiative",
+    "category": "Environment",
+    "location": "Pune, India",
+    "skills": ["Environmental Science", "Civil Engineering", "Community Outreach", "Data Analysis"],
+    "isUrgent": true,
+    "impact": {
+      "peopleHelped": 18200,
+      "projectsCompleted": 37,
+      "growth": [1800, 4200, 7800, 11000, 15500, 18200]
+    },
+    "description": "Installing rainwater harvesting systems and purification units in drought-prone villages, ensuring sustainable clean water access.",
+    "image": "https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Digital Literacy Corps",
+    "category": "Education",
+    "location": "Kolkata, India",
+    "skills": ["Teaching", "Web Development", "Content Writing", "Mentoring", "UI/UX Design"],
+    "isUrgent": false,
+    "impact": {
+      "peopleHelped": 7100,
+      "projectsCompleted": 25,
+      "growth": [700, 1600, 3000, 4800, 6200, 7100]
+    },
+    "description": "Closing the digital divide by training seniors, homemakers, and rural youth in essential computer and internet skills.",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Animal Welfare League",
+    "category": "Animal Welfare",
+    "location": "Ahmedabad, India",
+    "skills": ["Medical", "Community Outreach", "Social Media", "Logistics"],
+    "isUrgent": false,
+    "impact": {
+      "peopleHelped": 4200,
+      "projectsCompleted": 15,
+      "growth": [400, 900, 1800, 2900, 3700, 4200]
+    },
+    "description": "Rescuing, rehabilitating, and re-homing street animals while running community awareness programs on responsible pet ownership.",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4a?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "MindWell Foundation",
+    "category": "Healthcare",
+    "location": "Lucknow, India",
+    "skills": ["Counseling", "Content Writing", "Social Media", "Mentoring", "Health Education"],
+    "isUrgent": true,
+    "impact": {
+      "peopleHelped": 11500,
+      "projectsCompleted": 33,
+      "growth": [1100, 2700, 5000, 7600, 9800, 11500]
+    },
+    "description": "Delivering free mental health counseling, crisis intervention, and workplace wellness programs across underserved urban communities.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "Artisans United",
+    "category": "Livelihood",
+    "location": "Varanasi, India",
+    "skills": ["Content Writing", "Social Media", "UI/UX Design", "Mentoring", "Logistics"],
+    "isUrgent": false,
+    "impact": {
+      "peopleHelped": 5600,
+      "projectsCompleted": 20,
+      "growth": [550, 1300, 2600, 3900, 5000, 5600]
+    },
+    "description": "Connecting traditional Indian artisans with global markets through digital storytelling, e-commerce enablement, and design support.",
+    "image": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Disaster Relief Network",
+    "category": "Disaster Relief",
+    "location": "Pan India",
+    "skills": ["Logistics", "Medical", "Counseling", "Community Outreach", "Data Entry"],
+    "isUrgent": true,
+    "impact": {
+      "peopleHelped": 32000,
+      "projectsCompleted": 67,
+      "growth": [3000, 7500, 13000, 19500, 26000, 32000]
+    },
+    "description": "A rapid-response volunteer network providing emergency relief, medical aid, and psychosocial support during natural disasters and crises.",
+    "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&auto=format&fit=crop"
+  }
+]

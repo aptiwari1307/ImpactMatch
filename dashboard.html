@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Matching Dashboard – ImpactMatch</title>
+  <meta name="description" content="Enter your skills and instantly discover which NGOs you match with, see why you match, and identify skill gaps to grow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-logo">
+        Impact<span class="logo-dot">Match</span>
+      </a>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore NGOs</a>
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="navbar-actions">
+        <a href="dashboard.html" class="btn btn-primary btn-sm">
+          Get Matched
+        </a>
+        <div class="nav-hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="nav-mobile" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore NGOs</a>
+      <a href="dashboard.html" class="active">Dashboard</a>
+      <a href="impact.html">Impact</a>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+  <section class="dashboard-hero">
+    <div class="container">
+      <span class="section-tag">Smart Matching</span>
+      <h1>Your Skill Matching Dashboard</h1>
+      <p>Add your skills below and discover which NGOs align with your expertise — complete with match scores, reasons, and skill gap suggestions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="dashboard-layout">
+
+      <aside>
+        <div class="skill-panel">
+          <div class="skill-panel-title">
+            Your Skills
+          </div>
+
+          <div class="tag-input-wrap" id="tagInputWrap">
+            <input type="text" id="tagInput" class="tag-input"
+                   placeholder="Type a skill..."
+                   aria-label="Add skill tag">
+          </div>
+          <p class="tag-hint">Press <strong>Enter</strong> to add. Backspace to remove.</p>
+
+          <div class="quick-pick-label">Quick Pick</div>
+          <div class="quick-pick-chips" id="quickChips"></div>
+
+          <hr class="panel-divider">
+
+          <button class="btn btn-primary" id="matchBtn" style="width:100%; font-size:1rem; padding:16px;">
+            Find My NGO Matches
+          </button>
+        </div>
+      </aside>
+
+      <section class="results-panel" id="resultsArea">
+        <div class="results-placeholder">
+          <div class="ph-icon">Match</div>
+          <h3 style="color:var(--dark-900); font-size:1.1rem; margin-bottom:8px;">Ready to find your match?</h3>
+          <p style="max-width: 400px; line-height: 1.4; color:var(--text-muted); font-size:0.9rem;">Use the panel on the left to enter your skills, then click <strong>"Find My NGO Matches"</strong> to see results.</p>
+        </div>
+      </section>
+
+    </div>
+    <div style="background:#fff; border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; margin-bottom:40px; display:flex; gap:24px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:200px;">
+        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--primary); margin-bottom:8px;">
+          Match Formula
+        </div>
+        <div style="font-size:.9rem; color:var(--text-muted);">Score = (matched skills ÷ total required) × 100</div>
+      </div>
+      <div style="flex:1; min-width:200px;">
+        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--primary); margin-bottom:8px;">
+          Great Match ≥ 70%
+        </div>
+        <div style="font-size:.9rem; color:var(--text-muted);">Strong alignment – you can contribute immediately</div>
+      </div>
+      <div style="flex:1; min-width:200px;">
+        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--warning); margin-bottom:8px;">
+          Good Match 40–69%
+        </div>
+        <div style="font-size:.9rem; color:var(--text-muted);">Partial fit – close a skill gap to level up</div>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Impact<span class="logo-dot">Match</span></div>
+        <p>Connecting skills to causes through a data-driven volunteer matching platform.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore NGOs</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="footer-col">
+        <h5>About</h5>
+        <a href="#">Our Mission</a>
+        <a href="#">How It Works</a>
+        <a href="#">Partner NGOs</a>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2025 ImpactMatch..</span>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
